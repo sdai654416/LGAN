@@ -1,0 +1,2 @@
+python train.py --gpu 0 --algorithm gan --out result_gan --adam_alpha 0.0001 --adam_beta1 0.5 --adam_beta2 0.9 --bound 1.0 --shift_interval 10000
+python train.py --gpu 0 --algorithm wgan_gp --out result_wgan_gp --n_dis 1 --lam 10 --adam_beta1 0.5 --bound 1.0 --shift_interval 10000
