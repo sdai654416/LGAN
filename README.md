@@ -1,6 +1,6 @@
 # LGAN
 This repository collects chainer implementation of [LGAN](http://proceedings.mlr.press/v97/tao19a.html).
-These codes are built based on the [chainer-gan-lib](https://github.com/pfnet-research/chainer-gan-lib)
+These codes are built based on the [chainer-gan-lib](https://github.com/pfnet-research/chainer-gan-lib).
 
 How to use
 -------
@@ -19,7 +19,7 @@ cupy 3.0.0
 tensorflow 1.2.0 # only for downloading inception model
 numpy 1.11.1
 ```
-Download the inception score module forked from [https://github.com/hvy/chainer-inception-score](https://github.com/hvy/chainer-inception-score).
+Download the inception score module [here](https://github.com/sdai654416/LGAN/tree/master/common/inception).
 ```
 git submodule update -i
 ```
