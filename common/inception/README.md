@@ -58,12 +58,3 @@ mean, std = inception_score(model, np.concatenate(train, test))
 print('Inception score mean:', mean)
 print('Inception score std:', std)
 ```
-
-## Note
-
-This implementation seems to yield slightly higher scores than the original implementation looking at the inception scores based on CIFAR-10, upsampled from (32, 32) to (299, 299) using bilinear interpolation.
-
-|| Ours | Original |
-| ------------- | ------------- | ------------- |
-| Mean | 12.00 | 11.24 |
-| Std  | 0.10 | 0.12 |
