@@ -30,7 +30,7 @@ python download.py --outfile inception_score.model
 ```
 You can start training with `train.py`.
 
-Please see `example.sh` to train other algorithms.
+Please see `example.sh` to train different algorithms.
 
 Inception scores are calculated by average of 10 evaluation with 5000 samples.
 
